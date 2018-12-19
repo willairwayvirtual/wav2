@@ -29,9 +29,9 @@
         <div class="auto-style1">
         <div class="auto-style1">
             <p class="auto-style4">
-                Welcome to Willairways Virtual<o:p></o:p></p>
+                Welcome to Willairways Virtual<o:p></o:p>
+            </p>
             <p class="auto-style2">
-                <strong>messages fomCeo </strong>
             </p>
         </div>
             <p class="auto-style1">

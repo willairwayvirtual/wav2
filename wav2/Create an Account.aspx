@@ -32,6 +32,7 @@
         }
         .auto-style7 {
             height: 29px;
+            width: 151px;
         }
         .auto-style8 {
             font-size: x-large;
@@ -46,6 +47,7 @@
         }
         .auto-style11 {
             height: 31px;
+            width: 151px;
         }
         .auto-style12 {
             text-align: right;
@@ -54,6 +56,7 @@
         }
         .auto-style13 {
             height: 30px;
+            width: 151px;
         }
         .auto-style14 {
             width: 442px;
@@ -73,6 +76,9 @@
         .auto-style18 {
             text-align: left;
         }
+        .auto-style19 {
+            width: 151px;
+        }
     </style>
 </head>
 <body>
@@ -87,7 +93,7 @@
                         <asp:TextBox ID="fn1" runat="server" Width="244px"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="fn1" CssClass="auto-style8" ErrorMessage="FIRST name" ForeColor="Red"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style19">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Last Name</td>
@@ -95,7 +101,7 @@
                         <asp:TextBox ID="Ln" runat="server" Width="244px"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="Ln" CssClass="auto-style8" ErrorMessage="las name" ForeColor="Red"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style19">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style6">Username</td>
@@ -129,15 +135,15 @@
                         <asp:TextBox ID="cpas" runat="server" TextMode="Password" Width="244px"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="cpas" CssClass="auto-style9" ErrorMessage="Confirm Password" ForeColor="Red"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style19">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style14">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style19">&nbsp;</td>
                 </tr>
             </table>
-            <asp:Button ID="Button1" runat="server" Text="sign up in to willairways Virtual" Width="695px" />
+            <asp:Button ID="Button1" runat="server" Text="sign up in to willairways Virtual" Width="921px" />
         </div>
     </form>
 </body>

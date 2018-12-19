@@ -24,6 +24,9 @@
         .auto-style5 {
             width: 421px;
         }
+        .auto-style6 {
+            font-size: x-large;
+        }
     </style>
 </head>
 <body>
@@ -36,6 +39,7 @@
                 <td>&nbsp;</td>
                 <td class="auto-style5">
                     <asp:TextBox ID="TextBox1" runat="server" Width="190px"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" CssClass="auto-style6" ErrorMessage="username  invalid" ForeColor="Red" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -43,6 +47,7 @@
                 <td>&nbsp;</td>
                 <td class="auto-style5">
                     <asp:TextBox ID="TextBox2" runat="server" Width="190px"></asp:TextBox>
+                &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" CssClass="auto-style6" ErrorMessage="password invalid" ForeColor="#FF3300" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
