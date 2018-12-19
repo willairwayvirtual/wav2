@@ -27,6 +27,9 @@
         .auto-style6 {
             font-size: x-large;
         }
+        .auto-style7 {
+            font-size: medium;
+        }
     </style>
 </head>
 <body>
@@ -54,7 +57,8 @@
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button1" runat="server" Text="login" Width="211px" />
+                    <asp:Button ID="Button1" runat="server" Text="login" Width="211px" BackColor="Yellow" CssClass="auto-style7" />
+                    <asp:Button ID="Button2" runat="server" CssClass="auto-style7" Text="back" Width="193px" />
                 </td>
             </tr>
             <tr>

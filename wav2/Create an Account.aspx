@@ -23,7 +23,7 @@
         }
         .auto-style5 {
             text-align: left;
-            width: 442px;
+            width: 390px;
         }
         .auto-style6 {
             text-align: right;
@@ -59,19 +59,19 @@
             width: 151px;
         }
         .auto-style14 {
-            width: 442px;
+            width: 390px;
         }
         .auto-style15 {
             height: 29px;
-            width: 442px;
+            width: 390px;
         }
         .auto-style16 {
             height: 31px;
-            width: 442px;
+            width: 390px;
         }
         .auto-style17 {
             height: 30px;
-            width: 442px;
+            width: 390px;
         }
         .auto-style18 {
             text-align: left;
